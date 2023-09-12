@@ -19,6 +19,10 @@
 		4FCC1A442A90BFAF00DB57A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCC1A432A90BFAF00DB57A8 /* ContentView.swift */; };
 		4FCC1A462A90BFB100DB57A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FCC1A452A90BFB100DB57A8 /* Assets.xcassets */; };
 		4FCC1A492A90BFB100DB57A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FCC1A482A90BFB100DB57A8 /* Preview Assets.xcassets */; };
+		4FEEB5002AB08BD30075DF0B /* CustomDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEEB4FF2AB08BD30075DF0B /* CustomDivider.swift */; };
+		4FEEB5022AB08D7D0075DF0B /* MissionCrewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEEB5012AB08D7D0075DF0B /* MissionCrewView.swift */; };
+		4FEEB5042AB0999E0075DF0B /* CrewMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEEB5032AB0999E0075DF0B /* CrewMember.swift */; };
+		4FEEB5062AB09E050075DF0B /* ListedContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEEB5052AB09E050075DF0B /* ListedContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +39,10 @@
 		4FCC1A432A90BFAF00DB57A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4FCC1A452A90BFB100DB57A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FCC1A482A90BFB100DB57A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4FEEB4FF2AB08BD30075DF0B /* CustomDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDivider.swift; sourceTree = "<group>"; };
+		4FEEB5012AB08D7D0075DF0B /* MissionCrewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionCrewView.swift; sourceTree = "<group>"; };
+		4FEEB5032AB0999E0075DF0B /* CrewMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewMember.swift; sourceTree = "<group>"; };
+		4FEEB5052AB09E050075DF0B /* ListedContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListedContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,12 +77,16 @@
 			children = (
 				4FCC1A412A90BFAF00DB57A8 /* MoonshotApp.swift */,
 				4FCC1A432A90BFAF00DB57A8 /* ContentView.swift */,
+				4FEEB5052AB09E050075DF0B /* ListedContentView.swift */,
 				4FC6D69A2AAF1A690003F29B /* MissionView.swift */,
+				4FEEB5012AB08D7D0075DF0B /* MissionCrewView.swift */,
+				4FEEB5032AB0999E0075DF0B /* CrewMember.swift */,
 				4FC6D6982AAF17D50003F29B /* Colour-Theme.swift */,
 				4FC6D6962AADBEF40003F29B /* Mission.swift */,
 				4FC6D6922AAD1B510003F29B /* Astronaut.swift */,
 				4FC6D69C2AAF53E50003F29B /* AstronautView.swift */,
 				4FC6D6942AAD1BEC0003F29B /* Bundle-Decodable.swift */,
+				4FEEB4FF2AB08BD30075DF0B /* CustomDivider.swift */,
 				4FC6D5DE2AAD1ADC0003F29B /* astronauts.json */,
 				4FC6D5DF2AAD1ADC0003F29B /* missions.json */,
 				4FCC1A452A90BFB100DB57A8 /* Assets.xcassets */,
@@ -164,13 +176,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FC6D69B2AAF1A690003F29B /* MissionView.swift in Sources */,
+				4FEEB5062AB09E050075DF0B /* ListedContentView.swift in Sources */,
 				4FC6D6932AAD1B510003F29B /* Astronaut.swift in Sources */,
 				4FC6D69D2AAF53E50003F29B /* AstronautView.swift in Sources */,
 				4FC6D6992AAF17D50003F29B /* Colour-Theme.swift in Sources */,
+				4FEEB5022AB08D7D0075DF0B /* MissionCrewView.swift in Sources */,
+				4FEEB5002AB08BD30075DF0B /* CustomDivider.swift in Sources */,
 				4FCC1A442A90BFAF00DB57A8 /* ContentView.swift in Sources */,
 				4FCC1A422A90BFAF00DB57A8 /* MoonshotApp.swift in Sources */,
 				4FC6D6972AADBEF40003F29B /* Mission.swift in Sources */,
 				4FC6D6952AAD1BEC0003F29B /* Bundle-Decodable.swift in Sources */,
+				4FEEB5042AB0999E0075DF0B /* CrewMember.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
